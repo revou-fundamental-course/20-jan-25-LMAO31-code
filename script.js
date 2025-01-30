@@ -1,4 +1,3 @@
-
 function calculateBMI() {
     var weight = parseFloat(document.getElementById('weight').value);
     var height = parseFloat(document.getElementById('height').value);
@@ -23,7 +22,6 @@ function calculateBMI() {
         } else {
             resultText += "Kategori: Obesitas";
         }
-
         document.getElementById('result').innerHTML = resultText; // Use innerHTML to include <br>
     } else {
         alert("Silakan masukkan semua data.");
